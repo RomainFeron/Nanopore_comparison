@@ -16,5 +16,5 @@ busco:
     extra: ''
 
 stats:
-    memory: 2000
+    memory: 4000
     runtime: '0-01:00:00'
