@@ -1,8 +1,6 @@
 import os
 from snakemake.remote.HTTP import RemoteProvider
 
-include: 'utils.smk'
-
 # Initialize RemoteProvider object for remote input file (busco gene model)
 HTTP = RemoteProvider()
 
