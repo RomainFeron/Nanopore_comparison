@@ -4,7 +4,7 @@ rule stats:
     '''
     '''
     input:
-        config['assemblies']['{assembly}']
+        lambda wildcards: config['assemblies'][wildcards.assembly]
     output:
         stats = 'output/stats/{assembly}.stats',
         csv = 'output/stats/{assembly}.csv'
@@ -16,7 +16,7 @@ rule stats:
         memory = lambda wildcards, attempt: config['stats']['memory'] * attempt
     params:
         runtime = config['stats']['runtime'],
-        csv_file = os.path.splitext('{input}')[0] + '.csv'
+        csv_file = lambda wildcards, input: os.path.splitext(input[0])[0] + '.csv'
     shell:
-        '../scripts/assemblathon_stats.pl {input} -csv > {output.stats} 2> {log}; '
+        'scripts/assemblathon_stats.pl {input} -csv > {output.stats} 2> {log}; '
         'mv {params.csv_file} {output.csv} 2>> {log}'

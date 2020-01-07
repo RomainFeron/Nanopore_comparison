@@ -11,7 +11,7 @@ rule summary:
     BUSCO results for each lineage and each assembly.
     '''
     input:
-        busco = expand('output/busco/{assembly}/.busco.done', assembly=config['assemblies'].keys()),
+        busco = expand('output/busco/{assembly}/.done', assembly=config['assemblies'].keys()),
         stats = expand('output/stats/{assembly}.csv', assembly=config['assemblies'].keys())
     output:
         'output/summary.tsv'

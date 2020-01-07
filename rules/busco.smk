@@ -10,7 +10,8 @@ rule download_busco_lineage:
     Lineages are stored in a hidden 'lineages' directory.
     '''
     input:
-        HTTP.remote('https://busco.ezlab.org/datasets/{lineage}_odb9.tar.gz')
+        HTTP.remote('http://busco.ezlab.org/v2/datasets/{lineage}_odb9.tar.gz', allow_redirects=True)
+
     output:
         directory('output/.busco_lineages/{lineage}_odb9')
     log:
@@ -26,7 +27,7 @@ rule busco_run:
     Run BUSCO on a single assembly with a single lineage using the official wrapper.
     '''
     input:
-        assembly = config['assemblies']['{assembly}'],
+        assembly = lambda wildcards: config['assemblies'][wildcards.assembly],
         lineage = 'output/.busco_lineages/actinopterygii_odb9'
     output:
         touch('output/busco/{assembly}/.done')
