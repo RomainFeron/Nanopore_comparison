@@ -1,0 +1,20 @@
+assemblies:
+    dallia_pectoralis_female: data/Blackfish_female_DiscovarDeNovo_assembly.fasta
+    dallia_pectoralis_male: data/Blackfish_male_DiscovarDeNovo_assembly.fasta
+    dallia_pectoralis_unknown: data/Dallia_genome.fasta
+    esox_masquinongy_male: data/Muskie_DiscovarDeNovo_assembly.fasta
+    esox_masquinongy_female_1: data/Musky3_DiscovarDeNovo_assembly.fasta
+    esox_masquinongy_female_2: data/Musky_DiscovarDeNovo_assembly.fasta
+    esox_niger: data/Niger_genome.fasta
+    novumbra_hubbsi: data/Novumbra_genome.fasta
+
+busco:
+    mode: 'genome'
+    threads: 16
+    memory: 16000
+    runtime: '8-00:00:00'
+    extra: ''
+
+stats:
+    memory: 2000
+    runtime: '0-01:00:00'
