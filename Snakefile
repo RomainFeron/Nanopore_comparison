@@ -20,4 +20,4 @@ rule summary:
     log:
         'logs/summary.txt'
     script:
-        '../scripts/summary.py'
+        'scripts/summary.py'
