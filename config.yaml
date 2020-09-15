@@ -1,20 +1,48 @@
 assemblies:
-    dallia_pectoralis_female: data/Blackfish_female_DiscovarDeNovo_assembly.fasta
-    dallia_pectoralis_male: data/Blackfish_male_DiscovarDeNovo_assembly.fasta
-    dallia_pectoralis_unknown: data/Dallia_genome.fasta
-    esox_masquinongy_male: data/Muskie_DiscovarDeNovo_assembly.fasta
-    esox_masquinongy_female_1: data/Musky3_DiscovarDeNovo_assembly.fasta
-    esox_masquinongy_female_2: data/Musky_DiscovarDeNovo_assembly.fasta
-    esox_niger: data/Niger_genome.fasta
-    novumbra_hubbsi: data/Novumbra_genome.fasta
+    canu: data/canu.fa
+    canu_racon1: data/canu_racon1.fa
+    canu_racon2: data/canu_racon2.fa
+    canu_racon2_pilon1: data/canu_racon2_pilon1.fa
+    canu_racon2_pilon2: data/canu_racon2_pilon2.fa
+    canu_racon2_polca1: data/canu_racon2_polca1.fa
+    flye_corrected: data/flye_corrected.fa
+    flye_corrected_racon1: data/flye_corrected_racon1.fa
+    flye_corrected_racon2: data/flye_corrected_racon2.fa
+    flye_corrected_racon2_pilon1: data/flye_corrected_racon2_pilon1.fa
+    flye_corrected_racon2_polca1: data/flye_corrected_racon2_polca1.fa
+    flye_raw: data/flye_raw.fa
+    flye_raw_racon1: data/flye_raw_racon1.fa
+    flye_raw_racon2: data/flye_raw_racon2.fa
+    flye_raw_racon2_pilon1: data/flye_raw_racon2_pilon1.fa
+    flye_raw_racon2_polca1: data/flye_raw_racon2_polca1.fa
+    flye_trimmed: data/flye_trimmed.fa
+    flye_trimmed_racon1: data/flye_trimmed_racon1.fa
+    flye_trimmed_racon2: data/flye_trimmed_racon2.fa
+    flye_trimmed_racon2_pilon1: data/flye_trimmed_racon2_pilon1.fa
+    flye_trimmed_racon2_polca1: data/flye_trimmed_racon2_polca1.fa
+    wtdbg2_corrected: data/wtdbg2_corrected.fa
+    wtdbg2_corrected_racon1: data/wtdbg2_corrected_racon1.fa
+    wtdbg2_corrected_racon2: data/wtdbg2_corrected_racon2.fa
+    wtdbg2_corrected_racon2_pilon1: data/wtdbg2_corrected_racon2_pilon1.fa
+    wtdbg2_corrected_racon2_polca1: data/wtdbg2_corrected_racon2_polca1.fa
+    wtdbg2_raw: data/wtdbg2_raw.fa
+    wtdbg2_raw_racon1: data/wtdbg2_raw_racon1.fa
+    wtdbg2_raw_racon2: data/wtdbg2_raw_racon2.fa
+    wtdbg2_raw_racon2_pilon1: data/wtdbg2_raw_racon2_pilon1.fa
+    wtdbg2_raw_racon2_polca1: data/wtdbg2_raw_racon2_polca1.fa
+    wtdbg2_trimmed: data/wtdbg2_trimmed.fa
+    wtdbg2_trimmed_racon1: data/wtdbg2_trimmed_racon1.fa
+    wtdbg2_trimmed_racon2: data/wtdbg2_trimmed_racon2.fa
+    wtdbg2_trimmed_racon2_pilon1: data/wtdbg2_trimmed_racon2_pilon1.fa
+    wtdbg2_trimmed_racon2_polca1: data/wtdbg2_trimmed_racon2_polca1.fa
 
 busco:
     mode: 'genome'
-    threads: 16
-    memory: 16000
-    runtime: '8-00:00:00'
+    threads: 24
+    memory: 64000
+    runtime: '1-00:00:00'
     extra: ''
 
 stats:
-    memory: 4000
-    runtime: '0-01:00:00'
+    memory: 2000
+    runtime: '0-0:15:00'
