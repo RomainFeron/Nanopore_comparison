@@ -1,0 +1,52 @@
+
+---------------- Information for assembly 'data/flye_raw.fa' ----------------
+
+
+                                         Number of scaffolds       1757
+                                     Total size of scaffolds  947335101
+                                            Longest scaffold   35593798
+                                           Shortest scaffold        476
+                                 Number of scaffolds > 1K nt       1682  95.7%
+                                Number of scaffolds > 10K nt        889  50.6%
+                               Number of scaffolds > 100K nt        369  21.0%
+                                 Number of scaffolds > 1M nt        126   7.2%
+                                Number of scaffolds > 10M nt         27   1.5%
+                                          Mean scaffold size     539178
+                                        Median scaffold size      10348
+                                         N50 scaffold length   10807385
+                                          L50 scaffold count         25
+                                                 scaffold %A      28.89
+                                                 scaffold %C      21.09
+                                                 scaffold %G      21.10
+                                                 scaffold %T      28.92
+                                                 scaffold %N       0.00
+                                         scaffold %non-ACGTN       0.00
+                             Number of scaffold non-ACGTN nt          0
+
+                Percentage of assembly in scaffolded contigs      42.4%
+              Percentage of assembly in unscaffolded contigs      57.6%
+                      Average number of contigs per scaffold        1.0
+Average length of break (>25 Ns) between contigs in scaffold        100
+
+                                           Number of contigs       1824
+                              Number of contigs in scaffolds        120
+                          Number of contigs not in scaffolds       1704
+                                       Total size of contigs  947328401
+                                              Longest contig   30021296
+                                             Shortest contig        476
+                                   Number of contigs > 1K nt       1748  95.8%
+                                  Number of contigs > 10K nt        955  52.4%
+                                 Number of contigs > 100K nt        421  23.1%
+                                   Number of contigs > 1M nt        160   8.8%
+                                  Number of contigs > 10M nt         26   1.4%
+                                            Mean contig size     519369
+                                          Median contig size      11807
+                                           N50 contig length    7437548
+                                            L50 contig count         34
+                                                   contig %A      28.89
+                                                   contig %C      21.09
+                                                   contig %G      21.10
+                                                   contig %T      28.92
+                                                   contig %N       0.00
+                                           contig %non-ACGTN       0.00
+                               Number of contig non-ACGTN nt          0

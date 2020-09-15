@@ -1,0 +1,15 @@
+# BUSCO version is: 3.0.2 
+# The lineage dataset is: actinopterygii_odb9 (Creation date: 2016-02-13, number of species: 20, number of BUSCOs: 4584)
+# To reproduce this run: python /work/project/perch/esociformes_paper/assembly/stats/.snakemake/conda/7be74040/bin/run_busco -i data/flye_trimmed_racon2_pilon1.fasta -o flye_trimmed_racon2_pilon1 -l output/.busco_lineages/actinopterygii_odb9/ -m genome -c 24 -sp human
+#
+# Summarized benchmarking in BUSCO notation for file data/flye_trimmed_racon2_pilon1.fasta
+# BUSCO was run in mode: genome
+
+	C:93.9%[S:90.4%,D:3.5%],F:3.0%,M:3.1%,n:4584
+
+	4305	Complete BUSCOs (C)
+	4144	Complete and single-copy BUSCOs (S)
+	161	Complete and duplicated BUSCOs (D)
+	136	Fragmented BUSCOs (F)
+	143	Missing BUSCOs (M)
+	4584	Total BUSCO groups searched

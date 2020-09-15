@@ -1,0 +1,52 @@
+
+---------------- Information for assembly 'data/flye_raw_racon2_polca1.fa' ----------------
+
+
+                                         Number of scaffolds       1352
+                                     Total size of scaffolds  941422740
+                                            Longest scaffold   35421523
+                                           Shortest scaffold        497
+                                 Number of scaffolds > 1K nt       1332  98.5%
+                                Number of scaffolds > 10K nt        877  64.9%
+                               Number of scaffolds > 100K nt        367  27.1%
+                                 Number of scaffolds > 1M nt        126   9.3%
+                                Number of scaffolds > 10M nt         27   2.0%
+                                          Mean scaffold size     696319
+                                        Median scaffold size      23322
+                                         N50 scaffold length   10749561
+                                          L50 scaffold count         25
+                                                 scaffold %A      28.93
+                                                 scaffold %C      21.04
+                                                 scaffold %G      21.08
+                                                 scaffold %T      28.95
+                                                 scaffold %N       0.00
+                                         scaffold %non-ACGTN       0.00
+                             Number of scaffold non-ACGTN nt          0
+
+                Percentage of assembly in scaffolded contigs       0.5%
+              Percentage of assembly in unscaffolded contigs      99.5%
+                      Average number of contigs per scaffold        1.0
+Average length of break (>25 Ns) between contigs in scaffold        100
+
+                                           Number of contigs       1355
+                              Number of contigs in scaffolds          6
+                          Number of contigs not in scaffolds       1349
+                                       Total size of contigs  941422440
+                                              Longest contig   35421523
+                                             Shortest contig        497
+                                   Number of contigs > 1K nt       1335  98.5%
+                                  Number of contigs > 10K nt        880  64.9%
+                                 Number of contigs > 100K nt        369  27.2%
+                                   Number of contigs > 1M nt        127   9.4%
+                                  Number of contigs > 10M nt         27   2.0%
+                                            Mean contig size     694777
+                                          Median contig size      23394
+                                           N50 contig length   10749561
+                                            L50 contig count         25
+                                                   contig %A      28.93
+                                                   contig %C      21.04
+                                                   contig %G      21.08
+                                                   contig %T      28.95
+                                                   contig %N       0.00
+                                           contig %non-ACGTN       0.00
+                               Number of contig non-ACGTN nt          0

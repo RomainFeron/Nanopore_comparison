@@ -1,0 +1,52 @@
+
+---------------- Information for assembly 'data/wtdbg2_trimmed_racon2.fa' ----------------
+
+
+                                         Number of scaffolds       2613
+                                     Total size of scaffolds  887016948
+                                            Longest scaffold   17333162
+                                           Shortest scaffold       2666
+                                 Number of scaffolds > 1K nt       2613 100.0%
+                                Number of scaffolds > 10K nt       2274  87.0%
+                               Number of scaffolds > 100K nt        889  34.0%
+                                 Number of scaffolds > 1M nt        209   8.0%
+                                Number of scaffolds > 10M nt          3   0.1%
+                                          Mean scaffold size     339463
+                                        Median scaffold size      35749
+                                         N50 scaffold length    2211406
+                                          L50 scaffold count         94
+                                                 scaffold %A      29.00
+                                                 scaffold %C      20.97
+                                                 scaffold %G      21.01
+                                                 scaffold %T      29.03
+                                                 scaffold %N       0.00
+                                         scaffold %non-ACGTN       0.00
+                             Number of scaffold non-ACGTN nt          0
+
+                Percentage of assembly in scaffolded contigs       0.0%
+              Percentage of assembly in unscaffolded contigs     100.0%
+                      Average number of contigs per scaffold        1.0
+Average length of break (>25 Ns) between contigs in scaffold          0
+
+                                           Number of contigs       2613
+                              Number of contigs in scaffolds          0
+                          Number of contigs not in scaffolds       2613
+                                       Total size of contigs  887016948
+                                              Longest contig   17333162
+                                             Shortest contig       2666
+                                   Number of contigs > 1K nt       2613 100.0%
+                                  Number of contigs > 10K nt       2274  87.0%
+                                 Number of contigs > 100K nt        889  34.0%
+                                   Number of contigs > 1M nt        209   8.0%
+                                  Number of contigs > 10M nt          3   0.1%
+                                            Mean contig size     339463
+                                          Median contig size      35749
+                                           N50 contig length    2211406
+                                            L50 contig count         94
+                                                   contig %A      29.00
+                                                   contig %C      20.97
+                                                   contig %G      21.01
+                                                   contig %T      29.03
+                                                   contig %N       0.00
+                                           contig %non-ACGTN       0.00
+                               Number of contig non-ACGTN nt          0
